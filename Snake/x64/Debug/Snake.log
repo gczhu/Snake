@@ -1,0 +1,4 @@
+﻿  snake.cpp
+D:\Myprogram\贪吃蛇\Snake\snake.cpp(6,1): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+D:\Myprogram\贪吃蛇\Snake\snake.cpp : message : 参见“_CRT_SECURE_NO_WARNINGS”的前一个定义
+  Snake.vcxproj -> D:\Myprogram\贪吃蛇\x64\Debug\Snake.exe

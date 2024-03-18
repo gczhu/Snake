@@ -1,0 +1,51 @@
+﻿  snake.cpp
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(79,31): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(247,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(79,31): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(81,28): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(81,28): message : 尝试匹配参数列表“(int, int, char [7])”时
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(107,51): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [25]”转换为“LPCWSTR”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(107,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(108,42): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(108,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(139,51): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [25]”转换为“LPCWSTR”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(139,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(140,42): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(140,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(269,40): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(269,40): message : 尝试匹配参数列表“(IMAGE *, const char [9], int, int)”时
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(295,28): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(247,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(295,28): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(296,32): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(296,32): message : 尝试匹配参数列表“(int, int, const char [7])”时
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(297,31): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(297,31): message : 尝试匹配参数列表“(int, int, char [6])”时
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(305,67): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [10]”转换为“LPCSTR”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(305,21): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : 参见“MessageBoxA”的声明
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(311,74): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [10]”转换为“LPCSTR”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(311,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : 参见“MessageBoxA”的声明
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(338,74): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [10]”转换为“LPCSTR”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(338,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : 参见“MessageBoxA”的声明
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(364,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(247,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(364,30): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(369,45): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\86135\source\repos\Snake\Snake\snake.cpp(369,45): message : 尝试匹配参数列表“(int, int, char *)”时
